@@ -76,7 +76,7 @@ export default function ChatWidget() {
       <button
         className={`${styles.toggle} ${open ? styles.open : ''}`}
         onClick={() => setOpen(!open)}
-        aria-label={open ? 'Close chat' : 'Open chat with FitBot'}
+        aria-label={open ? 'Close chat with FitBot' : 'Open chat with FitBot'}
         aria-expanded={open}
         aria-controls="chat-widget"
         id="chat-toggle-btn"
@@ -122,7 +122,7 @@ export default function ChatWidget() {
           <button
             className={styles.closeBtn}
             onClick={() => setOpen(false)}
-            aria-label="Close chat"
+            aria-label="Close chat with FitBot"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
               <line x1="18" y1="6" x2="6" y2="18" />
